@@ -1,0 +1,10 @@
+age=float (input("Enter your age:"))
+
+if 0<=age<=1 :print("You are baby")
+elif 1<age<=2 :print("You are toddler")
+elif 2<age<=12 :print("You are childhood")
+elif 12<age<=17 :print("You are teenager")
+elif 17<age<=40 :print("You are adult")
+elif 40<age<=60 :print("You are middle age")
+elif 60<age<=75 :print("You are retirement")
+else: print("You are elderly")
